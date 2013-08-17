@@ -1,0 +1,112 @@
+<rightsMetadata xmlns="http://hydra-collab.stanford.edu/schemas/rightsMetadata/v1" version="0.1">
+<!--
+
+        This will be blank most of the time, but we need a place
+        to store copyright information when we know it.
+        If something is in the public domain, assert that here, using tools
+        at http://creativecommons.org/choose/publicdomain-2
+    
+-->
+<copyright>
+<human>
+This work is in the Public Domain. To view a copy of the public domain certification, visit http://creativecommons.org/licenses/publicdomain/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+</human>
+<!--   or it could be a straight copyright statement  -->
+<human>(c)2009 The Hydra Project</human>
+<!--   It could be typed...   -->
+<human type="someSpecialisedType">Blah Blah</human>
+<human type="aDifferentType">More blah</human>
+<machine>
+<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">
+<img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/publicdomain/88x31.png"/>
+</a>
+<br/>
+This work is in the
+<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>
+.
+</machine>
+</copyright>
+<!--  FeSL / XACML / ORDL / ...  -->
+<access type="discover">
+<!--  access to the object splash page  -->
+<human>
+<!--
+ Some human readable text as above (may be typed).  Ditto for all <human> below.  
+-->
+</human>
+<machine>
+<!--
+
+                Machine-readable access is a reference to a policy
+                Right now it isn't enforced. Once FeSL policies are represented
+                as fedora objects, this will reference one or more fedora PIDs
+                        
+-->
+<policy>hydra-policy:4502</policy>
+<!--
+
+                                Or this section may contain references to LDAP (or other) entries allowed access
+                                - either individual users or groups
+            
+-->
+<person>acsrg</person>
+<person>acscla</person>
+<group>staff</group>
+<group>academicVisitors</group>
+</machine>
+</access>
+<access type="read">
+<!--  download permission  -->
+<human/>
+<machine>
+<!--
+ persons or groups who can download or reference to a policy that determines this 
+-->
+</machine>
+</access>
+<access type="publish">
+<human/>
+<machine/>
+</access>
+<access type="create">
+<!--  etc  -->
+</access>
+<access type="etc">
+<!--  etc  -->
+</access>
+<use>
+<!--
+ Where possible, use should reference external licenses like creative commons 
+-->
+<human>
+You are free to re-distribute this object, but you cannot change it or sell it.
+</human>
+<machine>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/">
+<img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/us/88x31.png"/>
+</a>
+<br/>
+This
+<span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Sound" rel="dc:type">work</span>
+is licensed under a
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/">
+Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License
+</a>
+.
+</machine>
+</use>
+<!--
+ 
+        Embargo metadata is intended to provide a machine-readable date on which an embargo should be revisited; 
+        the date field can be typed locally to provide an indication of what should be done.
+        It is not intended that the machine date necessarily trigger an access rights change without human intervention.
+        Checking and actioning embargo date information will need to be implemented locally according to need.
+         
+-->
+<embargo>
+<human>Stanford only until 10 November 2012</human>
+<machine>
+<date type="release">2010-11-10</date>
+</machine>
+</embargo>
+</rightsMetadata>

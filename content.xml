@@ -1,0 +1,41 @@
+
+<rightsMetadata xmlns="http://hydra-collab.stanford.edu/schemas/rightsMetadata/v1" version="0.1">
+  <!-- foo -->
+  <copyright>
+    <human type="title">Copyright title</human>
+    <human type="description">Text desription of the copyright statement.</human>
+    <human>foo</human>
+    <human>bar</human>
+    <human type="baz">foo baz</human>
+    <machine type="uri"><a rel="license" href="http://creativecommons.org/licenses/publicdomain/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/publicdomain/88x31.png" /></a><br />This work is in the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</machine>
+  </copyright>
+  <access type="discover">
+    <human></human>
+    <machine>
+      <policy>hydra-policy:4502</policy>
+      <person>acsrg</person>
+      <person>acscla</person>
+      <group>staff</group>
+      <group>academicVisitors</group>
+    </machine>
+  </access>
+  <access type="read">
+    <human></human>
+    <machine>
+      <group>donor</group>
+    </machine>
+  </access>
+  <access type="edit">
+    <human></human>
+    <machine>
+      <group>archivist</group>
+      <group>reviewer</group>
+    </machine>
+  </access>
+  <embargo>
+    <human></human>
+    <machine>
+      <date type="release">2010-11-10</date>
+    </machine>
+  </embargo>
+</rightsMetadata>
